@@ -59,3 +59,45 @@ Babel Holo free and open source JS transpiler(Translate compiler) ja Ecmascript 
 
 [For more Reading About JSX Depth](https://reactjs.org/docs/jsx-in-depth.html)
 
+
+> Unidirectional data flow (One way Binding). Jodi parent tike kisu pathai taile child seta read only hisebe pai se kono change korte parbena tokhon tobe parent e giye change korte partbe. 
+
+>Props Drilling / one way binding
+
+[React Component Article](https://reactjs.org/docs/components-and-props.html)
+
+>State ta j change hoi oita holo ascyncronous way te
+
+
+```
+ const [steps, setSteps] = useState(0);
+
+    const increaseSteps = () => {
+        const newStepsCount = steps + 1;
+        setSteps(newStepsCount);
+        console.log(steps)
+    }
+
+
+//Eikhane ei console log ta hobe na thik moto karon holo eita ascyncronous way te kaj kore jar fole eita tar asol behaviour pabena. Tai amdr uchit use effect ta use kora
+```
+
+```
+ useEffect( ()=>{
+        console.log(steps);
+    }, [steps]);
+
+// eikane dependencies list second parameter ta jar fole oi dependencies ta jotobar change hobe totobar ei useeffect ta cholbe.
+```
+
+>Hook holo special function
+
+>Akta components er state k apnar child component k o pass kora jai
+
+- props are read only
+- props cannot be modified
+----------
+- state changes can be asynchronous
+- state can be modified using this.setState
+
+> jeikhane state tak change kora hoi oitak bole stateful component
