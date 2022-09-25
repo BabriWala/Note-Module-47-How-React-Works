@@ -101,3 +101,55 @@ Babel Holo free and open source JS transpiler(Translate compiler) ja Ecmascript 
 - state can be modified using this.setState
 
 > jeikhane state tak change kora hoi oitak bole stateful component
+
+<details><summary>What What is ReactJS ?</summary>
+<ul>
+    <li>ReactJS is a JavaScript libary for building user interfaces.</li>
+    <li>ReactJS is declarative, efficient, and flexible</li>
+    <li>It is fast and component based</li>
+    <li>It was initially developed and maintained by Facebook</li>
+    <li>React breaks web element down into reusable components making it easy to manage complex web interfaces.</li>
+    <li>React's Virtual Dom is a JavaScript representation of the actual DOM. When updates are made React compares the current DOM to the virtual DOM and only updates the difference between the two</li>
+</ul>
+</details>
+<br>
+
+<br>
+
+**Libary VS FrameWork**
+- React is a JavaScript Libary. Angular is a complete framework built on TypeScript - a superset of JavaScript.
+- ReactJS is a smaller piece of  the overall puzzle, Whereas Angular is acollection of all different puzzle pieces.
+
+
+<br>
+<br>
+<br>
+
+**Architecture**
+- ReactJS is responsible for the `View' element of application development in a Model-View-Controller (MVC) framework.
+- Angular is a complete MVC framework for font-end Development.
+
+<br>
+<br>
+
+**Components**
+- ReactJS is a libary for building and rendering components.
+- Angular is not only about components, it offers more solution that simply create components such as routing, state management, from validations and other tools that you need to develop large applications.
+
+
+<br>
+<br>
+
+**Performance**
+- The virtual DOM feature of ReactJS allows its application to virtually update the changes without rewritting the entire HTML document, this renders updates much quicker. 
+- The regular DOM feature of Angular makes the application slow in performance especially when compared to applications build using ReactJS
+
+**React Fiber Architecture**
+<br>
+**React Diff Algorithom**
+<br>
+**What is React Virtual DOM**
+<br>
+**How react Works**
+<br>
+**rcc for class componens**
